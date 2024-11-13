@@ -1,7 +1,17 @@
+import { BrowserRouter } from "react-router-dom";
+import { Footer, Header } from "./components";
+
 import "./App.css";
 
 function App() {
-  return <div className="App">Little Lemon App</div>;
+  return (
+    <>
+      <BrowserRouter>
+        <Header />
+        <Footer />
+      </BrowserRouter>
+    </>
+  );
 }
 
 export default App;
