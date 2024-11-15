@@ -7,7 +7,7 @@ function SpecialSection() {
   // display special cards
   const displaySpecialCard = (item) => {
     return (
-      <div className="col-12 col-md-4 mt-3 mt-md-0">
+      <div key={item.imageUrl} className="col-12 col-md-4 mt-3 mt-md-0">
         <div className="special-card">
           <img src={item.imageUrl} alt={item.imageUrl} />
           <div className="special-card-content">

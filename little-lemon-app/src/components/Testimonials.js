@@ -6,7 +6,7 @@ function Testimonials() {
   // display testimonial cards
   const displayTestimonialCard = (item) => {
     return (
-      <div className="col-12 col-md-4 mt-3 mt-md-0">
+      <div key={item.name} className="col-12 col-md-4 mt-3 mt-md-0">
         <div className="testimonial-card">
           <div className="row">
             <div className="col-8">
