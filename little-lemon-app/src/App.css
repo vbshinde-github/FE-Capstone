@@ -1,15 +1,186 @@
+body {
+  color: #000;
+  font-family: "Karla", sans-serif;
+}
 header {
   padding: 5px 0;
 }
 a {
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Markazi Text", serif;
+}
 ul {
   margin: 0;
   padding: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 .site-nav ul li {
   display: inline-block;
   margin-right: 20px;
   padding: 5px 10px;
+}
+.site-nav ul li a {
+  color: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero-heading {
+  font-size: 64px;
+  line-height: 70px;
+}
+h2 {
+  font-size: 40px;
+}
+.text-white {
+  color: #fff;
+}
+.text-yellow {
+  color: #f4ce14;
+}
+.text-tomato {
+  color: #ee9972;
+}
+.text-bold {
+  font-weight: 700;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.btn-primary {
+  padding: 8px 24px;
+  border-radius: 10px;
+  background-color: #f4ce14;
+  border: 2px solid #f4ce14;
+}
+.site-logo {
+  max-width: 200px;
+}
+
+footer {
+  background: #edefee;
+  padding: 20px 0px;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* ********** hero section ********** */
+.hero-section {
+  padding-top: 50px;
+  background: #495e57;
+}
+.hero-section-content {
+  height: 100%;
+  align-content: center;
+  max-width: 300px;
+}
+.hero-section img {
+  margin-bottom: -70px;
+}
+
+/* ********** special section ********** */
+.special-section {
+  padding: 100px 0 50px 0;
+}
+.special-card {
+  height: 100%;
+  background: #edefee;
+  border-radius: 10px;
+}
+.special-card img {
+  border-radius: 10px 10px 0 0;
+}
+.special-card-content {
+  padding: 20px;
+}
+.btn-delivery img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+/* ********** testimonial section ********** */
+.testimonial-section {
+  padding: 50px 0;
+  background: #edefee;
+}
+.testimonial-card {
+  height: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+/* ********** testimonial section ********** */
+.about-section {
+  padding: 50px 0;
+}
+.about-content {
+  max-width: 600px;
+}
+
+/* ********** booking form ********** */
+.booking-form {
+  max-width: 360px;
+  margin: 50px auto;
+  background: #edefee;
+  padding: 20px;
+  border-radius: 20px;
+}
+form {
+  text-align: left;
+}
+.booking-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.booking-form input,
+.booking-form select {
+  padding: 10px;
+  background: #fff;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+.form-error {
+  color: red;
+  font-size: 14px;
+}
+.success-message {
+  background: green;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* ********** responsive css ********** */
+@media screen and (min-width: 320px) {
+  .navigation-menu {
+    display: none;
+  }
+  .mobile-menu img {
+    width: 32px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .mobile-menu {
+    display: none;
+  }
+  .navigation-menu {
+    display: block;
+  }
 }
